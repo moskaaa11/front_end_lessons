@@ -1,0 +1,132 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.title {
+    margin-top: 20px;
+    margin-left: 600px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.menu {
+    margin-top: 10px;
+    margin-left: 590px;
+    color: chocolate;
+    font-weight: 1000;
+    font-size: small;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.main__first {
+    margin-top: 100px;
+    max-width: 700px;
+    margin-left: 390px;
+
+}
+
+.main__first-title {
+    margin-left: 250px;
+    margin-bottom: 30px; 
+    color: chocolate;
+    font-weight: 1000;
+    font-size: large;
+}
+
+.main__first-content {
+    margin-bottom: 30px; 
+    color: black;
+    font-weight: 200;
+    font-size: medium;
+}
+
+.main__second {
+    margin-top: 100px;
+    max-width: 700px;
+    margin-left: 390px;
+}
+
+.main__second-title {
+    margin-left: 250px;
+    margin-bottom: 30px; 
+    color:brown ;
+    font-weight: 1000;
+    font-size: large;
+}
+
+.main__second-content {
+    margin-bottom: 30px; 
+    color: black;
+    font-weight: 200;
+    font-size: medium;
+}
+
+.main__second-concl {
+    margin-bottom: 30px; 
+    color: black;
+    font-weight: 200;
+    font-size: medium;
+}
+
+.comp {
+    margin-top: 100px;
+    max-width: 700px;
+    margin-left: 390px;
+}
+.comp__title {
+    margin-left: 240px;
+    margin-bottom: 30px; 
+    color:black ;
+    font-weight: 1000;
+    font-size: large;
+}
+
+.comp__img {
+    margin-left: 100px;
+    margin-bottom: 30px; 
+}
+
+.comp__text {
+    margin-bottom: 30px; 
+    color: black;
+    font-weight: 200;
+    font-size: medium; 
+}
+
+.comp__cv {
+    margin-left: 100px;
+}
+
+.info {
+    margin-top: 100px;
+    max-width: 700px;
+    margin-left: 650px;
+}
+
+.info__contact {
+    margin-bottom: 20px;
+}
+ 
+.info__contact-item {
+    margin-right: 20px;
+}
+
+.info__sign {
+    max-width: 700px;
+    margin-left: 20px;
+    color: black;
+    font-weight: 200;
+    font-size: medium; 
+
+}
