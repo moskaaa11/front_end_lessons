@@ -1,0 +1,41 @@
+/* font-family: 'Lato', sans-serif; font-family: 'Nunito', sans-serif; */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.body {
+    font-family: 'Lato', sans-serif; 
+    font-family: 'Nunito', sans-serif;
+    width: 375px;
+
+}
+
+.programs {
+    width: 375px;
+    height: 837px;
+    background-color: #001A35;
+    
+}
+
+
+.programs__img {
+    margin-left: 12px;
+    margin-top: 135px;
+}
+
+.programs__title {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 115%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 52px;
+}
+
+.programs__table {
+    
+}
