@@ -1,0 +1,222 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Open Sans', sans-serif; 
+    height: 4706px;
+}
+
+.navigation {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #070707;
+    width: 940.6px;
+    margin-left: 252px;
+    margin-top: 23px;
+    margin-bottom: 33.56px;
+
+}
+
+.navigation__list {
+    margin-bottom: 29.2px;
+    margin-left: 225.21px;
+}
+
+.navigation__list-item {
+    margin-right: 41px;
+}
+
+.home {
+    width: 943.61px;
+    margin-left: 251.69px;
+}
+
+.home__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47.3392px;
+    line-height: 64px;
+    color: #070707;
+    margin-bottom: 38.68px;
+}
+
+.home__img {
+    margin-bottom: 100.04px;
+}
+
+.portfolio__about {
+    background-color: #F6F6F6;
+    height: 517px;
+    width: 1445px;
+}
+
+.portfolio__about-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #070707;
+    padding-top: 100.11px;
+    margin-left: 617px;
+    margin-bottom: 28.37px;
+}
+
+.portfolio__about__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #070707;
+    margin-bottom: 100px;
+    width: 480px;
+    margin-left:450px;
+   
+}
+
+.portfolio__about__text-item {
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+.portfolio__skills {
+    text-align: center;
+    width: 1445px;
+}
+
+.portfolio__skills-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #070707;
+    margin-top: 100.8px;   
+    margin-bottom: 34px;
+}
+
+.portfolio__skills-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #070707;
+    margin-bottom: 78.56px;
+}
+
+.portfolio__skills__img-item {
+    margin-bottom: 84.06px;
+}
+
+.portfolio__projects {
+    background-color: #F6F6F6;
+    height: 2239px;
+    width: 1445px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #070707;
+}
+
+.portfolio__projects-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #070707;
+    padding-top: 118.76px;
+}
+
+.portfolio__projects__online-img {
+    width: 936.24px;
+    height: 510px;
+    margin-top: 67.72px;
+    margin-bottom: 15.46px;
+}
+
+.portfolio__projects__reebok {
+    margin-top: 108px;
+}
+
+.portfolio__projects__reebok-img {
+    width: 936.24px;
+    height: 510px;
+    margin-bottom: 7.81px;
+}
+
+.portfolio__projects__reebok-text {
+    margin-bottom: 136.41px;
+}
+
+.portfolio__projects__braun-img {
+    width: 936.24px;
+    height: 510px;
+    margin-bottom: 1.14px;
+}
+
+.portfolio__projects__braun-text {
+    margin-bottom: 101.07px;
+}
+
+.contacts {
+    margin-top: 100.67px;
+    text-align: center;
+    width: 1445px;
+}
+
+.contacts__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #070707;
+    margin-bottom: 21.1px;
+}
+
+.contacts__text {
+    margin-bottom: 78.14px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #070707;
+}
+
+.contacts__img {
+    margin-bottom: 37px;
+}
+
+.contacts__social {
+    margin-left: 80px;
+}
+
+.contacts__social-img {
+    margin-right: 60px;
+    margin-bottom: 44px;
+}
+
+.contacts__concl {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+}
