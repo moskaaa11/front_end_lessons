@@ -1,0 +1,62 @@
+/*font-family: 'Macondo', cursive; font-family: 'Radio Canada', sans-serif;*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1500px;
+    max-height: 1500px;
+
+}
+
+.name__switch {
+    text-align: left;
+    background: #393E41;
+}
+
+.name__switch__button {
+    width: 50px;
+    background: #2E0B40;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+
+.name__title {
+    margin-top: 20px;
+    font-family: 'Radio Canada';
+    font-style:italic;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    text-align: center;
+    float: initial;
+    background: #907D41;
+}
+
+.name__job {
+    font-family: 'Radio Canada';
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 55px;
+    color: #000000;
+    text-align: center;
+    background: #907D41;
+}
+
+.left {
+    padding-top: 0px;
+    background: #393E41;
+    float: left;
+    height: 900px;
+}
+
+.centr {
+    background:aliceblue;
+}
+
+.end {
+    text-align: center;
+}
