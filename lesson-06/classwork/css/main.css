@@ -1,0 +1,42 @@
+.block {
+    /* Display model */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /*Background, border, outline */
+    background: transparent url('./image.png') no-repeat center / cover;
+    border: 1px solid #000;
+    border-radius: 20px;
+    outline: none;
+  
+    /* Text */
+    cursor: pointer;
+    color: red;
+    font: 700 28px / 34px 'Inter', sans-serif;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    
+  
+    /* Spacing and sizing */
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+  
+    /*Less commonly used */
+    opacity: 0.6;
+    transition: all 1s;
+    transform: translate(50%, 50%);
+    
+  
+    /* Position (clockwise) */
+    z-index: 2;
+    position: absolute;
+    inset: 10px 20px 30px 40px;
+  
+  }
