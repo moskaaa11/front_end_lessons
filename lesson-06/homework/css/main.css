@@ -95,10 +95,6 @@
     transition: all .1ms ease-in;
 }
 
-input[type="checkbox"]:checked {
-    background: var(--main-color-white);
-}
-
 input[type="checkbox"]:checked + .main__list__item-point {
     text-decoration: line-through;
 }
