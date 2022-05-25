@@ -98,13 +98,68 @@
 }
 
 .container {
-    display: flex;
-    justify-content: center;
     max-width: 1125px;
+    margin-left: 140px;
+    display: inline-block;
+    margin-top: 30px;
 }
 
 .get--started {
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: unset;
+    width: 458px;
+    font-family: var(--main-font);
 }
+
+.get--started__title {
+    color: #2F281E;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.get--started__text {
+    color: #544837;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+
+.get--started__button {
+    width: 175px;
+    height: 53px;
+    background: #FF9900;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.get--started__button:hover {
+    filter: drop-shadow(0px 4px 4px orange);
+    transition: transform 0.5s;
+}
+
+.get--started__img {
+    margin-left: 30px;
+    margin-right: 8px;
+}
+
+.get--started__url {
+    color:#FF9900;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.img {
+    width: 604px;
+    height: 495px;
+    background-image: url(../img/jump.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
