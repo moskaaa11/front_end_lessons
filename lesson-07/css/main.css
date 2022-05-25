@@ -10,13 +10,13 @@
 }
 
 .page--wrapp {
-    width: 1400px;
-    height: 3843px;
+    max-width: 1400px;
+    max-height: 3843px;
 }
 
 .header {
     font-family: var(--main-font);
-    height: 78px;
+    min-height: 78px;
     margin: 20px auto 0;
 
 }
@@ -26,7 +26,7 @@
 }
 
 .header__logo {
-    width: 185px;
+    min-width: 185px;
     margin-left: 144px;
     margin-top: 22px;
 }
@@ -73,6 +73,12 @@
 
 }
 
+.Sign--in:hover {
+    filter: drop-shadow(0px 4px 4px gray);
+    transition: transform 0.5s;
+}
+
+
 .Sign--up {
     width: 110px;
     height: 46px;
@@ -86,21 +92,19 @@
     line-height: 24px;
 }
 
-.header--two {
-    width: 1125px;
-    height: 495px;
+.Sign--up:hover {
+    filter: drop-shadow(0px 4px 4px orange);
+    transition: transform 0.5s;
 }
 
 .container {
-    display: inline-block;
+    display: flex;
     justify-content: center;
+    max-width: 1125px;
 }
 
-.container__img {
-    width: 604px;
-    height: 495px;
-    background-image: url(../img/jump.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.get--started {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: unset;
 }
