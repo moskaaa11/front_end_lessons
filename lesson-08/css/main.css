@@ -1,0 +1,240 @@
+/*font-family: 'Poppins', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-font: 'Poppins', sans-serif;
+}
+
+.page--wrap {
+    max-width: 1400px;
+    max-height: 3843px;
+    font-family: var(--main-font);
+}
+
+.header {
+    
+    min-height: 78px;
+    margin: 20px auto 0;
+
+}
+
+.box {
+    display: inline-block;
+}
+
+.header__logo {
+    min-width: 185px;
+    margin-left: 144px;
+    margin-top: 22px;
+}
+
+.header__list--wrapp {
+    margin-left: 320px;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    
+}
+
+.header__list-item:hover {
+    filter: drop-shadow(0px 4px 4px black);
+    transition: transform 0.5s;
+}
+
+.header__list-text {
+    list-style: none;
+    color: #2F281E;
+    text-decoration: none;
+    margin-right: 29px; 
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.Sign--in {
+    width: 102px;
+    height: 46px;
+    margin-right: 14px;
+    background: #BCD0E5;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #173A56;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.Sign--in:hover {
+    filter: drop-shadow(0px 4px 4px gray);
+    transition: transform 0.5s;
+}
+
+
+.Sign--up {
+    width: 110px;
+    height: 46px;
+    background: #FF9900;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Sign--up:hover {
+    filter: drop-shadow(0px 4px 4px orange);
+    transition: transform 0.5s;
+}
+
+.container {
+    max-width: 1125px;
+    margin-left: 140px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.get--started {
+    width: 458px;
+    font-family: var(--main-font);
+}
+
+.get--started__title {
+    color: #2F281E;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.get--started__text {
+    color: #544837;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+
+.get--started__button {
+    width: 175px;
+    height: 53px;
+    background: #FF9900;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.get--started__button:hover {
+    filter: drop-shadow(0px 4px 4px orange);
+    transition: transform 0.5s;
+}
+
+.get--started__img {
+    margin-left: 30px;
+    margin-right: 8px;
+}
+
+.get--started__url {
+    color:#FF9900;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.img {
+    width: 604px;
+    height: 495px;
+    background-image: url(../img/jump.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;    
+}
+
+.boxes__title {
+    max-width: 539px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+    text-align: center;
+    margin-top: 111px;
+    margin-bottom: 54px;
+}
+
+.boxes__wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    padding-right: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.boxes__wrap__icon {
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.boxes__wrap__title {
+    margin-bottom: 13px;
+}
+
+.boxes__wrap__text{
+    margin-bottom: 60px;
+}
+
+.button {
+     display: flex;
+    justify-content: center;
+}
+
+.button__sign--up {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background: #FF9900;
+    width: 175px;
+    height: 53px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button__sign--up:hover {
+    filter: drop-shadow(0px 4px 4px orange);
+    transition: transform 0.5s; 
+}
+
+.footer--wrap {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1109px;
+    border-top: 1px solid  rgba(188, 208, 229, 0.496913) ;
+}
+
+.footer__logo {
+    margin-top: 105px;
+    align-content: center;
+}
