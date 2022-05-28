@@ -88,6 +88,7 @@
 .main__list__item:hover {
     background: var(--main-color-hover);
     border: solid 2px var(--main-color-white);
+    box-sizing:content-box;
 }
 
 .main__list__item:active {
