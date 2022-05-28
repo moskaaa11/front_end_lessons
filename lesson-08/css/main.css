@@ -255,6 +255,7 @@
     color: #544837;
     margin-left: 175px;
     list-style: none;
+    min-width: 150px;
 }
 
 .cont__nav__list-item:hover {
