@@ -76,23 +76,23 @@ img {
 
 .header__img-first {
     position: absolute;
-    width: 8%;
+    width: 12%;
     top:10%;
     left:30%;
 }
 
 .header__img-second {
     position: absolute;
-    width: 8%;
+    width: 12%;
     top:80%;
-    left:40%;
+    left:30%;
 }
 
 .header__img-third {
     position: absolute;
-    width: 8%;
+    width: 12%;
     top:40%;
-    left: 52%;
+    left: 47%;
     
 }
 
