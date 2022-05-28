@@ -22,7 +22,7 @@ function paralaxStop(event) {
     this.querySelectorAll('.par').forEach(par => {
         speed = par.getAttribute('data-speed');
         par.style.transform = translate(0);
-        par.style.transition = 'transform 0.5s' //<=== Швидкість анімації зупинення
+        par.style.transition = 'transform 0.2s' //<=== Швидкість анімації зупинення
     });
 }
 

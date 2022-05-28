@@ -74,6 +74,28 @@ img {
     transform: scale(1.1);
 }
 
+.header__img-first {
+    position: absolute;
+    width: 8%;
+    top:10%;
+    left:30%;
+}
+
+.header__img-second {
+    position: absolute;
+    width: 8%;
+    top:80%;
+    left:40%;
+}
+
+.header__img-third {
+    position: absolute;
+    width: 8%;
+    top:40%;
+    left: 52%;
+    
+}
+
 .header__img-arrow {
     position: absolute;
     width: 15%;
