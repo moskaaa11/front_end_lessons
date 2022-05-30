@@ -7,13 +7,9 @@
 
 .page--wrapper {
     display: flex;
-    justify-content: space-around;
-    align-content: center;
-    width: 100%;
     font-family: 'PT Sans', sans-serif ;
     position: relative;
     z-index: 1;
-
 }
 
 
@@ -73,9 +69,10 @@
     left: 120px;
     top: 100px;
     z-index: 1;
-    width: 400px;
     height: 100%;
+    text-align: left;
 }
+
 .main {
     margin-left: 120px;
     display: flex;
@@ -83,7 +80,6 @@
     align-content: flex-end;
     flex-direction: column;
     margin-top: 83px;
-    max-width: 1400px;
 }
 
 
@@ -108,9 +104,6 @@
     margin-top: 70px;
 }
 
-section {
-    max-width: 785px;
-}
 
 h2 {
     font-family: 'Francois One', sans-serif;
