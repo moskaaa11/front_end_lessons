@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page--wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 1200px;
+    font-family: 'PT Sans', sans-serif ;
+    position: relative;
+}
+
+.header__box__lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tourney';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    position: absolute;
+    top: 29px;
+}
+
+.header__box__nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;    
+    width: 261px;
+    list-style: none;
+    left: 100px;
+    top: 26px;
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+}
+
+.header__logo {
+    background-image: url(../logo.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 238px;
+    min-height: 54px;
+    right:0;
+}
+
+.main {
+    margin-top: 83px;
+}
+
+h2 {
+    font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+}
+
+.title__add {
+    font-family: 'Farro', sans-serif;
+    text-transform: none;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: black;
+    
+}
+
+.react__list {
+    list-style:none;
+}
+
+.react__list__item {
+    margin-top: 40px;
+}
+
+.react__list__item-text {
+    margin-top: 40px;
+}
+
+.Highlight {
+    background-color: gray;
+}
+
+.core__text{
+    margin-bottom: 40px;
+}
