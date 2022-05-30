@@ -19,16 +19,18 @@
 
 .vector {
     background-image: url(../vector.jpg);
-    position: absolute;
+    position: fixed;
     min-width: 760px;
     min-height: 760px;
     z-index: -1;
     right: -200px;
     top: 150px;
 }
+ 
+
 
 .header__box__lang {
-    position: absolute;
+    position: fixed;
     font-family: 'Tourney';
     font-weight: 600;
     font-size: 22px;
@@ -51,15 +53,17 @@
     line-height: 28px;
     letter-spacing: 0.03em;
     transform: translate(220px, 29px);
+    position: fixed;
 }
 
 .header__logo {
     background-image: url(../logo.jpg);
-    position: absolute;
+    position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 238px;
     min-height: 54px;
+    top: 16px;
     right:120px;
 }
 
