@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.page--wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    font-family: 'PT Sans', sans-serif ;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+.vector {
+    background-image: url(../vector.jpg);
+    position: absolute;
+    min-width: 760px;
+    min-height: 760px;
+    z-index: -1;
+    right: -200px;
+    top: 150px;
+}
+
+.header__box__lang {
+    position: absolute;
+    font-family: 'Tourney';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    top: 29px;
+    transform: translate(120px, 29px);
+}
+
+.header__box__nav__list {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 10px;    
+    width: 261px;
+    list-style: none;
+    margin-top: 26px;
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    transform: translate(220px, 29px);
+}
+
+.header__logo {
+    background-image: url(../logo.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 238px;
+    min-height: 54px;
+    right:120px;
+}
+
+.main {
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 83px;
+    max-width: 1400px;
+}
+
+.aside {
+    position: absolute;
+    left: 120px;
+    top: 230px;
+    z-index: 1;
+}
+
+.aside__list {
+    list-style: none;
+    font-family: 'Francois One';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.aside__list-item {
+    border-bottom: 1px solid grey;
+    margin-bottom: 80px;
+}
+.border {
+    border-top: 8px solid black;
+    max-width: 100px;
+    margin-top: 70px;
+}
+
+h2 {
+    font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+}
+
+.title__add {
+    font-family: 'Farro', sans-serif;
+    text-transform: none;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: black;
+    
+}
+
+.react__list {
+    list-style:none;
+}
+
+.react__list__item {
+    margin-top: 40px;
+}
+
+.react__list__item-text {
+    margin-top: 40px;
+}
+
+.Highlight {
+    background-color: gray;
+}
+
+.core__text{
+    margin-bottom: 40px;
+}
