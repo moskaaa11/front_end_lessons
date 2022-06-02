@@ -1,0 +1,96 @@
+/*font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --second-font: 'Inter', sans-serif;
+}
+
+.page--wrapper {
+    background: #ffff;
+    max-width: 570px;
+    height: 100vh;
+    font-family: var(--main-font);
+}
+
+
+.header__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1C1C1C;
+    margin: 35px auto 20px 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto 34px 20px 36px;
+    gap: 12px;
+}
+
+.name__first {
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    color: #545454;
+}
+
+input{
+    min-height: 38px;
+    
+}
+
+.field {
+    border-radius: 5px;
+    border-color: white;
+    width: 245px;
+}
+
+#email{
+    width: 500px;
+}
+
+.field:hover{
+    border-color: blue;
+}
+
+.name__last {
+    display: flex;
+    flex-direction: column;
+}
+
+.name__email {
+    display: flex;
+    flex-direction: column; 
+}
+
+.name__email-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
+    margin-top: 7px;
+}
+
+.wrap__box {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.wrap__box__checkbox {
+    
+}

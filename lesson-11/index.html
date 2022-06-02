@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+            
+            <link rel="stylesheet" href="./css/reset.css">
+            <link rel="stylesheet" href="./css/main.css">
+
+        </head>
+
+        <body>
+            <div class="page--wrapper">
+                <header class="header">
+                    <h1 class="header__title">
+                        Create an Account
+                    </h1>
+                </header>
+                <main class="main">
+                    <form class="name">
+                        <div class="container">
+                           <div class="name__first">
+                                <label class="name__first label" for="first">First Name</label>
+                                <input type="name" class="name__first field" name="first" id="first" placeholder="First Name" required autofocus>
+                            </div>
+                            <div class="name__last">
+                                <label for="last" class="name__last label">Last Name</label>
+                                <input type="text" class="name__last field" name="last" id="last" placeholder="Last Name" required>
+                            </div> 
+                        </div>
+                        <div class="container">
+                            <div class="name__email">
+                                <label for="email" class="name__email label">E-mail</label>
+                                <input type="email" class="name__email field" name="email" id="email" placeholder="E-mail"  required>
+                                <p class="name__email-text">We'll never share your email with anyone else.</p>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="wrap__box">
+                                <input  class="wrap__box__checkbox" type="checkbox">
+                                <p class="wrap__box__text">Male</p>
+                            </div>
+                            <div class="wrap__box">
+                                <input class="wrap__box__checkbox" type="checkbox">
+                                <p class="wrap__box__text" >Female</p>
+                            </div>
+                        </div>
+                    </form>
+                </main>
+            </div>
+        </body>
+    </html>
