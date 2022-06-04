@@ -49,14 +49,12 @@ font-family: 'Roboto', sans-serif;*/
 
 input{
     min-height: 38px;
-    
 }
 
 .field {
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid gray;
     width: 245px;
-    opacity: 20%;
 }
 
 #email{
@@ -65,7 +63,6 @@ input{
 
 .field:hover{
     border-color: blue;
-    opacity: 100%;
 }
 
 .name__last {
@@ -101,11 +98,15 @@ input{
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    color: #545454;
 }
 
 .container input {
@@ -120,8 +121,8 @@ input{
     position: absolute;
     top: 0;
     left: 0;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     background-color: white;
     border-radius: 50%;
     border: 1px solid grey;
@@ -146,8 +147,8 @@ input{
 }
 
 .container .checkmark:after {
-    top: 9px;
-    left: 9px;
+    top: 6px;
+    left: 6px;
     width: 8px;
     height: 8px;
     border-radius: 50%;
