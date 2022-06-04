@@ -24,7 +24,7 @@
                 </header>
                 <main class="main">
                     <form class="name">
-                        <div class="container">
+                        <div class="containers">
                            <div class="name__first">
                                 <label class="name__first label" for="first">First Name</label>
                                 <input type="name" class="name__first field" name="first" id="first" placeholder="First Name" required autofocus>
@@ -34,7 +34,7 @@
                                 <input type="text" class="name__last field" name="last" id="last" placeholder="Last Name" required>
                             </div> 
                         </div>
-                        <div class="container">
+                        <div class="containers">
                             <div class="name__email">
                                 <label for="email" class="name__email label">E-mail</label>
                                 <input type="email" class="name__email field" name="email" id="email" placeholder="E-mail"  required>
@@ -42,17 +42,52 @@
                             </div>
                         </div>
                         <div class="wrap">
-                            <div class="wrap__box">
-                                <input  class="wrap__box__checkbox" type="checkbox">
-                                <p class="wrap__box__text">Male</p>
-                            </div>
-                            <div class="wrap__box">
-                                <input class="wrap__box__checkbox" type="checkbox">
-                                <p class="wrap__box__text" >Female</p>
-                            </div>
+                            <label class="wrap container">Male
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                              </label>
+                            <label class="wrap container">Female
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="containers">
+                            <div class="name__country">
+                                 <label class="name__country label" for="country">Country</label>
+                                 <select name="country" class="country" id="country">
+                                    <option value="Ukraine">Ukraine</option>
+                                    <option value="Ukraine">USA</option>
+                                    <option value="Ukraine">Portugal</option>
+                                    <option value="Ukraine">Spain</option>
+                                 </select>
+                             </div>
+                             <div class="name__city">
+                                 <label for="city" class="name__city label">City</label>
+                                 <input type="text" class="name__city field" name="city" id="city" placeholder="City" required>
+                                 <button class="submit" type="submit">
+                                Sign Up
+                                </button>
+                             </div> 
+                             
+                        </div>
+                        <div class="text">
+                                 <p class="text__item">By clicking the 'Sign Up' button, you confirm that you accept our 
+                                     <a class="text__item-url" href="#">Terms of Use</a>
+                                    and
+                                    <a class="text__item-url" href="#">Privacy Policy</a>
+                                    .</p>
                         </div>
                     </form>
                 </main>
+                <footer class="footer">
+                    <div class="footer border"></div>
+                    <div class="footer end">
+                        <p class="end__text">
+                            Have an account?
+                            <a class="end__text-item" href="#">Log In</a>
+                        </p>
+                    </div>
+                </footer>
             </div>
         </body>
     </html>
