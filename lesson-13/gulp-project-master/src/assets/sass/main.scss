@@ -12,10 +12,6 @@
 @import './common/footer.scss';
 @import './common/form.scss';
 
+//pages
 
-//Pages
-@import './page/about.scss';
-@import './page/works.scss';
-@import './page/blog/blog.scss';
-@import './page/blog/post.scss';
-@import './page/contacts.scss';
+@import "./common/pages/home.scss"

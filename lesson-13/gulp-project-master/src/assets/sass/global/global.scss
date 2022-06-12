@@ -1,41 +1,68 @@
 body {
     font-family: $main-font;
-}
-
-.logo {
-    min-width: 135px;
-    display: block;
-    margin-right: 50px;
+    background: $main-color;
+    color: $main-text;
 }
 
 .container {
-    max-width: 1179px;
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: 1170px;
+    
 }
 
-.title {
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 64px;
-    letter-spacing: 0.05em;
-    color: $color-black;
+.h2 {
+    font-family: $logo-font;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.h1 {
     font-family: $sub-font;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
 }
 
-.sub-title {
+.h3 {
     font-weight: 400;
-    font-size: 23px;
-    line-height: 166%;
-    letter-spacing: 0.1em;
-    color: $color-black;
-    font-family: $sub-font;
+    font-size: 24px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
 }
 
-.text {
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 32px;
-    letter-spacing: 0.05em;
-    color: $color-text;
+.h5 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: $down-text;
+}
+
+.service__box {
+    max-width: 370px;
+    border: 1px solid $color-border;
+    border-radius: 8px;
+
+
+    &:hover {
+        border: 1px solid $down-text;
+        border-radius: 8px;
+    }
+
+    &-item {
+        margin: 40px;
+        gap: 30px;
+    }
+    
+    &-title {
+        margin-bottom: 15px;
+    }
+
+    &-text {
+        margin-bottom: 30px;
+    }
+
+    &-down {
+        cursor: pointer;
+    }
 }

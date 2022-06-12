@@ -1,0 +1,56 @@
+.footer{
+
+    background: $main-text;
+
+    &__container {
+        position: relative;
+        margin: 22px auto auto 178px;
+    }
+
+    &__logo{
+        width: 30px;
+        position: absolute;
+        left: -45px;
+        top:3px;
+    }
+
+    &__title {
+        color: $color-white;
+    }
+
+    &__box {
+        display: flex;
+        padding: 40px 135px;
+        gap: 10px;
+    }
+
+    &__icon:first-child {
+        width: 38px;
+        height: 38px;
+        background-image: url("../img/icon/instagram.svg");
+    }
+
+    &__icon:nth-child(2) {
+        width: 38px;
+        height: 38px;
+        background-image: url("../img/icon/facebook.svg");
+    }
+
+    &__icon:nth-child(3) {
+        width: 38px;
+        height: 38px;
+        background-image: url("../img/icon/github.svg");
+    }
+
+    &__icon:nth-child(4) {
+        width: 38px;
+        height: 38px;
+        background-image: url("../img/icon/dribbble.svg");
+    }
+
+    &__icon:last-child {
+        width: 38px;
+        height: 38px;
+        background-image: url("../img/icon/twitter.svg");
+    }
+}
