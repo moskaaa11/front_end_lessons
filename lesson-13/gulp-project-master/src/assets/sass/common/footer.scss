@@ -4,14 +4,15 @@
 
     &__container {
         position: relative;
-        margin: 22px auto auto 178px;
+        margin-left:178px;
+        padding-top: 39px;
     }
 
     &__logo{
         width: 30px;
         position: absolute;
         left: -45px;
-        top:3px;
+        top:42px;
     }
 
     &__title {
