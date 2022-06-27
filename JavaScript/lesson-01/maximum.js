@@ -18,4 +18,4 @@ let dollar = prompt ('Веди кількість долларів');
 
 const euro = 1.1;
 
-alert (`Ти отримаєш ${dollar*euro} євро`);
+alert (`Ти отримаєш ${dollar/euro} євро`);
