@@ -19,7 +19,7 @@ let res = document.querySelector('.res');
 let out = document.querySelector('.out');
 
 res.onclick = () => {
-   out.innerHTML = (+inp.value / 0.82);
+   out.innerHTML = (Math.trunc(+inp.value / 0.82));
 }
 
 //third task
@@ -39,3 +39,17 @@ but.onclick = () => {
     rest.innerHTML = (inp1.value % inp2.value);
 }
 
+//second task
+
+let inp3 = document.querySelector ('.three');
+let click = document.querySelector ('.math');
+let from = document.querySelector ('.results');
+let from1 = document.querySelector ('.results1');
+let from2 = document.querySelector ('.results2');
+
+click.onclick = () => {
+    from.innerHTML =(inp3.value % 10);
+    from1.innerHTML= (( (inp3.value % 100) - (inp3.value % 10)) / 10) ;
+    from2.innerHTML = ((inp3.value - (inp3.value %100))/100)
+
+}
