@@ -50,6 +50,6 @@ let from2 = document.querySelector ('.results2');
 click.onclick = () => {
     from.innerHTML =(inp3.value % 10);
     from1.innerHTML= (( (inp3.value % 100) - (inp3.value % 10)) / 10) ;
-    from2.innerHTML = ((inp3.value - (inp3.value %100))/100)
+    from2.innerHTML = ((inp3.value - (inp3.value %100))/100);
 
 }
