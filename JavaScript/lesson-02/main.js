@@ -34,6 +34,8 @@ let but = document.querySelector ('.result')
 let chock = document.querySelector ('.chocolate');
 let rest = document.querySelector ('.rest');
 
+
+
 but.onclick = () => {
     chock.innerHTML = (Math.trunc(inp1.value / inp2.value));
     rest.innerHTML = (inp1.value % inp2.value);
