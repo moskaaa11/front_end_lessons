@@ -22,7 +22,7 @@ document.querySelector('.b-1').onclick = t1;
 
 function t2() {
     let out = "";
-    for (let i = 12; i <= 38; i++) {
+    for (let i = 12; i <= 38; i= i + 2) {
         out += i + "_"
     }
     document.querySelector('.out-2').innerHTML = out;
@@ -37,7 +37,11 @@ document.querySelector('.b-2').onclick = t2;
 // Разделитель - нижнее подчеркивание. Задача решается с помощью цикла.
 
 function t3() {
-
+    let out = "";
+    for (let i = 25; i >= 7; i--) {
+        out += i + "_"
+    }
+    document.querySelector('.out-3').innerHTML = out;
 }
 
 document.querySelector('.b-3').onclick = t3;
@@ -49,7 +53,11 @@ document.querySelector('.b-3').onclick = t3;
 
 
 function t4() {
-
+    let out = "";
+    for (let i = 77; i >= 35; i= i - 3) {
+        out += i + "_"
+    }
+    document.querySelector('.out-4').innerHTML = out;
 }
 
 document.querySelector('.b-4').onclick = t4;
@@ -61,7 +69,16 @@ document.querySelector('.b-4').onclick = t4;
 // от 1 до 17 c шагом 1. Разделитель - знак подчеркивания и звездочка (если число нечетное, и две звездочки если четное). Задача решается с помощью цикла.
 
 function t5() {
-
+    let out = "";
+    for (let i = 1; i <= 17; i++) {
+        if (i%2  == 0) {
+            out += i + "_" + "**"
+        } else if ( i%2 > 0) {
+            out +=  i + "_" + "*"
+        }
+        
+    }
+    document.querySelector('.out-5').innerHTML = out;
 }
 
 document.querySelector('.b-5').onclick = t5;
@@ -79,7 +96,7 @@ document.querySelector('.b-5').onclick = t5;
 
 function t6() {
     let out = "";
-    let inp = +document.querySelector('.i-6').value;
+    let inp = document.querySelector('.i-6').value;
     for (let i = 1; i <= inp; i++) {
         out += "******<br>"
     }
@@ -96,8 +113,16 @@ document.querySelector('.b-6').onclick = t6;
 // 4_3_2_1_0_
 // Задача решается с помощью цикла.
 
-function t7() {
+let inp7 = document.querySelector('.i-7');
+let out7 = document.querySelector ('.out-7');
+let out = "";
 
+function t7() {
+    for (let i=inp7.value; i>= 0; i--){
+        out += i + "_";
+    }
+
+    out7.innerHTML=out;
 }
 
 document.querySelector('.b-7').onclick = t7;
@@ -111,8 +136,16 @@ document.querySelector('.b-7').onclick = t7;
 //  4_5_6_7_8_
 // Задача решается с помощью цикла.
 
+let inp81 = document.querySelector ('.i-81');
+let inp82 = document.querySelector ('.i-82');
+let out8 = document.querySelector ('.out-8');
+let inc= "";
 function t8() {
+    for (let i=inp81.value; i<= inp82.value; i++) {
+        inc += i + "_";
+    }
 
+    out8.innerHTML = inc;
 }
 
 document.querySelector('.b-8').onclick = t8;
@@ -128,7 +161,22 @@ document.querySelector('.b-8').onclick = t8;
 // Задача решается с помощью цикла. Подсказка - вначале делаем проверку, а потом запускаем цикл.
 // цикл - один
 
+let inp91 = document.querySelector ('.i-91');
+let inp92 = document.querySelector ('.i-92');
+let out9 = document.querySelector ('.out-9');
+let itr = "";
+
 function t9() {
+    
+    if (inp91.value < inp92.value) {
+        for (let i = inp91.value; i<= inp92.value; i++)
+        itr += i + "_";
+    } else if (inp92.value < inp91.value) {
+        for (let i = inp92.value; i<= inp91.value; i++)
+        itr += i +"_";
+    }
+
+    out9.innerHTML=itr;
 
 }
 
@@ -139,7 +187,17 @@ document.querySelector('.b-9').onclick = t9;
 // Кнопка .b-10 запускает функцию t10. Функция должна выводить в .out-10 четные годы от 1950 до 1970 включительно.
 // Разделитель - знак подчеркивания. Задача решается через цикл, а четность - через шаг (равный 2).
 
+let out10 = document.querySelector('.out-10');
+let tru = "";
+
 function t10() {
+    for (let i=1950; i<=1970; i++) {
+        if (i%2==0) {
+            tru += i + "_";
+        }
+    }
+
+    out10.innerHTML=tru;
 
 }
 
@@ -155,7 +213,7 @@ document.querySelector('.b-10').onclick = t10;
 
 
 function t11() {
-
+   
 }
 
 document.querySelector('.b-11').onclick = t11;
