@@ -22,10 +22,12 @@ const car = {
     spend: '10',
 };
 
-car.operator = inp1.value;
+
 
 
 btn1.onclick = () => {
+    car.operator = inp1.value;
+
     for (let key in car) {
     res +=`<li class=out-1__list>${car[key]}</li>`;
 }
