@@ -1,31 +1,53 @@
 class Product {
-    constructor(nameOfProduct, amount, status) {
-      this.nameOfProduct = nameOfProduct;
-      this.amount = amount;
-      this.status = status;
+    constructor(params = {}) {
+      Object.assign(this, {
+        pName: null, 
+        amount: 1, 
+        bought: false,
+        prise: 2, 
+      }, { ...params }); 
     }
+    
+
+static sortDefault(a, b) {  
+      return (a.bought - b.bought) * 10 + a.pName.localeCompare(b.pName); 
+    }; 
+}
+Product.prototype.toString = function () {
+    return `${this.pName} (x${this.amount}), ${this.bought ? 'куплено' : 'не куплено'}, ${this.prise} usd, ${this.amount * this.prise} usd`;
+}; 
   
-    static sortProduct(a) {
-      if (a.status == 'Не куплен') return -1; 
-      if (a.status == 'Куплен') return 1; 
-    }
   
-    static showProduct(a) {
-      return a.nameOfProduct;
-    }
+const shopList = [
+    { pName: 'Банан', amount: 2, prise: 25 },
+    { pName: 'Апельсин', amount: 5, bought: true, prise: 44 },
+    { pName: 'Молоко', bought: true , prise: 29},
+    { pName: 'Груша', amount: 10, prise: 11 }
+].map(prodDef => new Product(prodDef));
+  
+const addToShopList = prodDef => { 
+    const prod = shopList.find(prod => prod.pName === prodDef.pName); 
+    if (!prod) return shopList.push(new Product(prodDef)); 
+    prod.amount += prodDef.amount; 
+}; 
+
+const delOfShopList = prodFed => {
+      const prod = shopList.find(prod => prod.pName === prodFed.pName);
+      if (!prod) return shopList.slice(x,y);
+      prod.amount -= prodFed.amount;
   }
-   
-  let shopList = [
-    new Product('Банан', 2, 'Не куплен'),
-    new Product('Апельсин', 5,'Куплен'),
-    new Product('Молоко', 1, 'Куплен'),
-    new Product('Груша', 10, 'Не куплен'),
-  ];
+const printShopList = () => shopList.forEach(
+    (prod, i) => console.log(`${i + 1}. ${prod}`)
+); 
   
-  shopList.sort(Product.sortProduct);
-  console.log(shopList.map(Product.showProduct));
-  let newProduct = new Product('Шоколад', 2, 'Не куплен');
+shopList.sort(Product.sortDefault);
+printShopList();
+console.log('---'); 
   
-  shopList.push(newProduct);
-  shopList.sort(Product.sortProduct);
-  console.log(shopList.map(Product.showProduct));
+addToShopList({ pName: 'Банан', amount: 3 });
+addToShopList({ pName: 'Шоколад', amount: 2 });
+shopList.sort(Product.sortDefault);
+printShopList();
+console.log('---'); 
+
+delOfShopList (1,4);
