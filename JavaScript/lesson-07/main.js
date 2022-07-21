@@ -31,11 +31,7 @@ const addToShopList = prodDef => {
     prod.amount += prodDef.amount; 
 }; 
 
-const delOfShopList = prodFed => {
-      const prod = shopList.find(prod => prod.pName === prodFed.pName);
-      if (!prod) return shopList.slice(x,y);
-      prod.amount -= prodFed.amount;
-  }
+
 const printShopList = () => shopList.forEach(
     (prod, i) => console.log(`${i + 1}. ${prod}`)
 ); 
@@ -49,5 +45,3 @@ addToShopList({ pName: 'Шоколад', amount: 2 });
 shopList.sort(Product.sortDefault);
 printShopList();
 console.log('---'); 
-
-delOfShopList (1,4);
