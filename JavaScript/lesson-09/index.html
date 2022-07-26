@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            
+            <style>
+                .btn {
+                    margin-bottom: 300px;
+                }
+                .out-1 {
+                    text-align:center ;
+                    width: 400px;
+                    height: 400px;
+                    background: red;
+                    position: relative;
+                    display:none;
+                }
+                .btn-2 {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+
+                .container {
+                    margin-top: 200px;
+                    height: 600px;
+                    width: 300px;
+                    background: gray;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 50px;
+                    border-radius: 30px;
+
+                }
+
+                .container__box {
+                    border-radius: 50px;
+                    background: white;
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .btn-3 {
+                    height: 50px;
+                    border-radius: 10px;
+                }
+            </style>
+
+        </head>
+
+
+        <body>
+            <div class="out"></div>
+            <button class="btn">Ok</button>
+
+
+            <div class="out-1">
+                <p>You are so cute!!!</p>
+                <button class="btn-2">Close</button>
+            </div>
+            <button class="btn-1">Open</button>
+
+            <div class="container">
+                <div class="container__box"></div>
+                <div class="container__box"></div>
+                <div class="container__box"></div>
+                <button class="btn-3">switch</button>
+            </div>
+
+        </body>
+
+
+        <script src="./main.js"></script>
+    </html>
