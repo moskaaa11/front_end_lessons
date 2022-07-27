@@ -66,13 +66,7 @@ btn1.onclick = () => {
 };
 btn2.onclick = () => {
     out1.style.display = 'none';
-}
+};
 
 // second end
 
-let btn3 = document.querySelector ('btn-3');
-let box = document.querySelector ('container__box')
-
-btn3.onclick = () => {
-    box.style.display = 'none';
-}
